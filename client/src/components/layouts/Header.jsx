@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <>
-    <div className='flex items-center w-full justify-center bg-[#FAE2E2]'>
+    <div className='flex items-center w-full justify-around bg-[#FAE2E2]'>
       <div className=''>
-        <h1 className='text-4xl font-bold'><Link to='/'>LOGO</Link></h1>
+        <h1 className='text-4xl font-bold'><Link to='/'><img src='../src/assets/agencylogo.svg'/></Link></h1>
         </div>
-      <div className='flex text-center mx-20 my-5 p-4 grid-cols-4'>
+      <div className='flex text-center mx-20 my-5 p-4'>
         <ul className='flex space-x-12 text-center font-semibold'>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/blog'>Blog</Link></li>
