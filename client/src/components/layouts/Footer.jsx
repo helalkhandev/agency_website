@@ -3,8 +3,8 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-      <div className='bg-[#FFE5E5] flex flex-wrap justify-start p-5 m-1 md:justify-around md:space-y-1'>
-        <div className='md:space-y-1 m-3'>
+      <div className='bg-[#FFE5E5] flex flex-wrap justify-start p-5 md:justify-around md:space-y-1'>
+        <div className='md:space-y-1 md:last:m-3'>
           <img className='mb-2' src='./src/assets/agencylogo.svg'/>
             <p>Street : 1273 Whitetail Lane<br/>
               City : Dallas<br/>
@@ -14,7 +14,7 @@ function Footer() {
               Country calling code : +1<br/>
               Country : United States</p>
         </div>
-        <div className='md:space-y-1'>
+        <div className='mr-10 md:space-y-1'>
           <h1 className='text-2xl font-bold'>Our Services</h1>
           <p className=''>Web Design<br/>
           Web Development<br/>
